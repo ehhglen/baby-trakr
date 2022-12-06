@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Task from '../src/components/Task/Task';
+import AddButton from './components/Button/AddButton';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World, from WSL2</h1>
-    </div>
+    <Task />
   );
 }
 
